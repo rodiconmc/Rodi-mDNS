@@ -39,6 +39,7 @@ mdns.on('query', function (query, rinfo) {
         }
     }
     if (response.length > 0) {
+        console.log("Sent mDNS response to " + rinfo.address)
         mdns.respond(response)
     }
 })

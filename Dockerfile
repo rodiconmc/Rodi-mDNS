@@ -3,3 +3,4 @@ COPY . .
 RUN npm install
 VOLUME [ "/data" ]
 EXPOSE 5353
+ENTRYPOINT ["npm", "run", "start"]

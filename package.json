@@ -1,0 +1,14 @@
+{
+  "name": "rodi-mdns",
+  "version": "1.0.0",
+  "description": "An easy mDNS responder as a docker container",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "natekfl",
+  "license": "MIT",
+  "dependencies": {
+    "multicast-dns": "^7.2.2"
+  }
+}

@@ -1,5 +1,7 @@
 # Rodi-mDNS
 
+[![](https://img.shields.io/docker/automated/rodicon/rodi-mdns?style=for-the-badge)](https://hub.docker.com/r/rodicon/rodi-mdns)
+
 This is an easy mDNS responder
 
 To use, simply ensure the file `/data/records.json` exists in the container. That file should be a JSON object, which has domain keys and ip values, or auto.
